@@ -1,4 +1,7 @@
+import {} from '../VariablesDataTypes/app'; 
+
 const souvenirs = [];
+let flag = true;
 
 while(flag){
     const nameSouvenir = prompt('Enter souvenir name: ');
@@ -13,10 +16,12 @@ while(flag){
         };
         souvenirs.push(souvenir);
         if(!confirm('Do you want to add other souvenir ? ')){
-            console.log(souvenirs);
             flag = false;
         }
+        console.log(souvenirs);
     }else{
         alert('Validate Data');
     }
+
+   
 }
