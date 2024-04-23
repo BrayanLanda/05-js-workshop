@@ -1,5 +1,4 @@
-import {} from '../VariablesDataTypes/app'; 
-
+// import {} from '../VariablesDataTypes/app'; 
 const souvenirs = [];
 let flag = true;
 
@@ -21,7 +20,5 @@ while(flag){
         console.log(souvenirs);
     }else{
         alert('Validate Data');
-    }
-
-   
+    }   
 }

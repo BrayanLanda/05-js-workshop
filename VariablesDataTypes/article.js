@@ -15,7 +15,13 @@ while(flag){
             flag = false;
         }
         else if(umbral < extraMoney){
-            alert('puedes gastar')
+            alert('puedes gastar');
+            if(!confirm('quiere compar algo? ')){
+                alert('buen, gasta');
+                flag = false;
+            }else{
+                
+            }
         }else{
             alert('auque tienes plata es mejor que no gastes');
         }
